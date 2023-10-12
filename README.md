@@ -1,4 +1,4 @@
-# Advanced-CSS--Challenge-2
+# Project Portfolio
 ## Portfolio that showcases applications which demonstrate the necessary skills to execute certain functionalities of each design.
 ### This challenge from the UT bootcamp was intended to test my knowledge of HTML and CSS, I created a portfolio website from scratch to showcase my current and future applications. This website also includes links for potential employers to easily access my code repositories as well as contact information.
 
