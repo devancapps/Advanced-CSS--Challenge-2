@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
 
 <head>
-	<title>Coding Portfolio</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Portfolio</title>
 </head>
+
 <body>
-    <section id= "boxhead">
-        <p>Devan Capps</p>
+    <header>
+        <div id="boxhead">
+            <h1>Devan Capps</h1>
+            <p>Passionate Web Developer</p>
+        </div>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello, I'm Devan, and I am a passionate web developer. I am undergoing a boot camp at the University of Texas and have been honing my skills to prepare me for my next role in software development.</p>
+        </div>
     </section>
-    <!-- Navigation Sections -->
-<ul>
-	<li><a href="#about">About Me</a></li>
-	<li><a href="#work">Work</a></li>
-	<li><a href="#contact">Contact Me</a></li>
-	<li><a href="#resume">Resume</a></li>
-</ul>
-<!-- About Me Section -->
-<section id="about">
-	<h1>About Me</h1>
-	<p>Hello, I'm Devan and I am a passionate web developer. I am undergoing a bootcamp at the University of Texas and have been honing my skills to prepare me for my next role in software development</p>
-<div class="projects">
-    <section class="card">
-        <img src="https://tse3.explicit.bing.net/th?id=OIP.fmmAx2o6NndScaWWcPGcYQHaE8&pid=Api&P=0&h=220" alt="Project 1">
-        MERN Stack
+
+    <!-- Work Section -->
+    <section id="work">
+        <div class="work-content">
+            <h2>Work</h2>
+            <!-- Project Cards -->
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Title</h3>
+                <p>Short project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Title</h3>
+                <p>Short project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Add more project cards here -->
+        </div>
     </section>
-    <section class="card">
-        <img src="https://tse1.mm.bing.net/th?id=OIP.whoeDJcRcCDbE1zPsL99mQHaEo&pid=Api&P=0&h=220" alt="Project 2">
-        Node/IoT
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me through any of these channels:</p>
+            <ul>
+                <li>Email: devancapps97@gmail.com</li>
+                <li>Phone: (903-787-8590)</li>
+                <li><a href="https://github.com/devancapps" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </div>
     </section>
-    <section class="card">
-        <img src="https://tse2.mm.bing.net/th?id=OIP.YhLeDt_PoZ3J0KscK3zP7gHaEK&pid=Api&P=0&h=220" alt="Project 3">
-        React/JavaScript/CSS
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="resume-content">
+            <h2>Resume</h2>
+            <p>If you would like to view my full resume, please click the button below:</p>
+            <a href="link_to_your_resume.pdf" target="_blank" rel="noopener">
+                <button type="button">View Resume</button>
+            </a>
+        </div>
     </section>
-    <section class="card">
-	    <img src="https://tse2.mm.bing.net/th?id=OIP.s1TCIb_iouGK1CTFgT6uuAHaEU&pid=Api&P=0&h=220" alt="Project 4">
-        MERN Stack
-    </section>
-    <section class="card">
-	    <img src="https://tse4.mm.bing.net/th?id=OIP.6UEuWTnH0Db6vYPTcrH1SwHaEL&pid=Api&P=0&h=220" alt="Project 5">
-        HTML/CSS
-    </section>
-    </section>
-</div>
-<!-- Work Section -->
-<section id="work">
-	<h1>Work</h1>
-	<p>Here are some of my recent projects:</p>
-	<div>
-		<img src="project1.jpg" alt="Project 1">
-		<p>Short project description</p>
-	</div>
-	<div>
-		<img src="project2.jpg" alt="Project 2">
-		<p>Short project description</p>
-	</div>
-</section>
-<!-- Contact Me Section -->
-<section id="contact">
-	<h1>Contact Me</h1>
-	<p>Feel free to reach out to me through any of these channels:</p>
-	<ul>
-		<li>Email: devancapps97@gmail.com</li>
-		<li>Phone: (903-787-8590)</li>
-		<li><a href="https://github.com/devancapps" target="_blank">GitHub</a></li>
-	</ul>
-</section>
-<!-- Resume Section -->
-<section id="resume">
-	<h1>Resume</h1>
-	<p>If you would like to view my full resume, please click the button below:</p>
-	<button type="button">View Resume</button>
-</section>
+</body>
+
+</html>
